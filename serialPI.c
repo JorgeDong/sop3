@@ -1,3 +1,7 @@
+//Autores:
+// Jorge Alejandro Dong Llauger IS714046
+// Kevin Antonio Moreno Melgoza IS714714
+//Fecha: 15/09/2020
 #include <stdio.h>
 #include <sys/time.h>
 #include <sys/types.h>
@@ -26,7 +30,6 @@ int main(){
     stop_ts = ts.tv_sec; //Tiempo final
 
     elapsedTime = stop_ts - start_ts;
-    printf("----------------------\n");
     printf("Tiempo total, %lld segundos\n", elapsedTime);
     printf("Resultado, %f\n", piResult);
 }
