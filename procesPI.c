@@ -1,3 +1,7 @@
+//Autores:
+// Jorge Alejandro Dong Llauger IS714046
+// Kevin Antonio Moreno Melgoza IS714714
+//Fecha: 15/09/2020
 #include  <sys/types.h>
 #include  <sys/ipc.h>
 #include  <sys/shm.h>
