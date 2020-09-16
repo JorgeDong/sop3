@@ -86,13 +86,12 @@ int main()
 	}
         
 	// Liberar el stack
-	free( stack );
-	printf("Resultado, %f\n", PI);  
+	free( stack ); 
     gettimeofday(&ts, NULL);
     stop_ts = ts.tv_sec; //Tiempo final
 
     elapsedTime = stop_ts - start_ts;
-    printf("----------------------\n");
+	printf("Resultado, %f\n", PI); 
     printf("Tiempo total, %lld segundos\n", elapsedTime);
      
 	return 0;

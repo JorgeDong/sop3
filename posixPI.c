@@ -49,13 +49,11 @@ int main(){
 		pthread_join(tid[i],NULL);
 	}
 
-    printf("PI= %f\n",PI);
 
    gettimeofday(&ts, NULL);
     stop_ts = ts.tv_sec; //Tiempo final
 
     elapsedTime = stop_ts - start_ts;
-    printf("----------------------\n");
     printf("Tiempo total, %lld segundos\n", elapsedTime);
     printf("Resultado, %f\n", PI);
 }
